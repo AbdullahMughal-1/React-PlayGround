@@ -1,11 +1,14 @@
 import React from 'react'
+
+import { FaShoppingCart } from "react-icons/fa";
+
  
 
 const Navbar = () => {
   return (
     <>
     <div className="shadow bg-white
-    duration-200 py-2">
+    duration-200 py-3 sm:py-0">
         <div className="container">
             <div className="flex justify-between items-center">
                 <div className="">
@@ -26,7 +29,13 @@ const Navbar = () => {
                             <a href="#" className='inline-block py-4 px-4 hover:text-[#ff9c01]'>Contact</a>
                         </li>
                     </ul>
-
+                    
+                    <button className="bg-[#ff9c01] text-white px-4 py-1 rounded-full sm:hidden hover:scale-105 duration-300 flex items-center gap-2">
+                        Order
+                        <FaShoppingCart
+                        className='text-xl text-white drop-shadow-sm cursor-pointer'
+                        />
+                    </button>
                 </div>
             </div>
         </div>

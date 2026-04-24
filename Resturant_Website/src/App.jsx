@@ -1,6 +1,7 @@
 import Hero from "./component/Hero/Hero"
 import Navbar from "./component/Navbar"
-import Services from "./Services"
+import Services from "./component/Services"
+
 
 
 function App() {

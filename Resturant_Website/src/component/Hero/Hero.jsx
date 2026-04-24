@@ -66,7 +66,7 @@ const Hero = () => {
                 className="w-[300px] sm:w-[450px] mx-auto spin" />
             </div>
             {/* List of images section - Fixed positioning */}
-            <div className="flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute -bottom-[40px] lg:-right-10 bg-white/30 rounded-full">
+            <div className="flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute -bottom-[10px] lg:-right-10 bg-white/30 rounded-full">
                 {ImageList.map((item) => (
                     <img 
                     key={item.id}

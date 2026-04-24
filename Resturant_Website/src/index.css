@@ -4,4 +4,27 @@
 @theme {
     --color-primary:#0bdbb6;
     --color-primary-black:#0d0d0d;
+    
 }
+
+@keyframes container {
+        center:true,
+        padding:{
+            DEFAULT:"1rem"
+            sm:"3rem"
+        }
+  
+ }
+
+ @keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+ }
+
+ .spin{
+    animation:spin 40s linear infinite
+ }

@@ -9,9 +9,12 @@ function App() {
 
   return (
    <>
+   <div className="bg-white dark:bg-gray-900 dark:text-white">
+
   <Navbar/>
   <Hero/>
   <Services/>
+   </div>
    </>
   )
 }

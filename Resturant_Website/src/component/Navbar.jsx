@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <>
     <div className="shadow bg-white dark:bg-gray-900 dark:text-white duration-200 py-3 sm:py-0">
-        <div className="container">
-            <div className="flex justify-between items-center">
+        <div className="mr-7 lg:mr-12 ">
+            <div className="flex justify-between items-center ">
                 <div className="">
                     <a href="#" className='flex text-2xl sm:text-3xl font-bold items-center gap-2'>
-                    <img src="/Logo.png" alt="Logo" className='w-14  ml-3' />
+                    <img src="/Logo.png" alt="Logo" className='w-14  ml-4 py-2' />
                     Tastey
                     </a>
                 </div>
@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className="">
                         <Darkmode/>
                     </div>
-                    <ul className='sm:flex gap-4 hidden '>
+                    <ul className='lg:flex gap-4 hidden '>
                         <li>
                             <a href="#" className='inline-block py-4 px-4 hover:text-[#ff9c01]'>Home</a>
                         </li>
@@ -33,7 +33,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     
-                    <button className="bg-[#ff9c01] text-white px-4 py-1 rounded-full sm:hidden hover:scale-105 duration-300 flex items-center gap-2">
+                    <button className="bg-[#ff9c01] text-white px-4 py-1 rounded-full sm:flex flex hover:scale-105 duration-300  items-center gap-2">
                         Order
                         <FaShoppingCart
                         className='text-xl text-white drop-shadow-sm cursor-pointer'

@@ -1,3 +1,5 @@
+import AppStore from "./component/AppStore"
+import Banner from "./component/Banner"
 import Hero from "./component/Hero/Hero"
 import Navbar from "./component/Navbar"
 import Services from "./component/Services"
@@ -14,6 +16,8 @@ function App() {
   <Navbar/>
   <Hero/>
   <Services/>
+  <Banner/>
+  <AppStore/>
    </div>
    </>
   )

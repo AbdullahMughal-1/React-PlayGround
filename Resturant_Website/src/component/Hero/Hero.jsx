@@ -49,7 +49,7 @@ const Hero = () => {
             <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, veniam natus. Ad, dolorem ducimus ullam aliquam corrupti a dicta reprehenderit.
             </p>
             <div className="bg-[#ff9c01] px-4 py-2 rounded-full hover:scale-150
-            duration w-fit">
+            duration w-fit ">
                 <button className="">Order Now</button>
             </div>
 

@@ -3,6 +3,7 @@ import Banner from "./component/Banner"
 import Hero from "./component/Hero/Hero"
 import Navbar from "./component/Navbar"
 import Services from "./component/Services"
+import Testimonial from "./component/Testimonial"
 
 
 
@@ -18,6 +19,7 @@ function App() {
   <Services/>
   <Banner/>
   <AppStore/>
+  <Testimonial/>
    </div>
    </>
   )

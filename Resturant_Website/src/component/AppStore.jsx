@@ -6,10 +6,12 @@ import gif from "../assets/hex.gif"
 const AppStore = () => {
   return (
     <div className="bg-gray-100 dark:bg-gray-800 py-14">
-      <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 max-w-6xl mx-auto px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 max-w-6xl mx-auto px-4"
+       data-aos="fade-up"
+                  data-aos-duration="300">
         
         {/* Left side: text + buttons */}
-        <div className="space-y-6">
+        <div className="space-y-6 "   >
           <h1 className="text-2xl sm:text-4xl font-semibold text-center sm:text-left dark:text-gray-400 text-gray-700">
             Tastey is Available for Android and iOS
           </h1>

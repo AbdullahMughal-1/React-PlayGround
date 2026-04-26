@@ -44,9 +44,10 @@ const Testimonial = () => {
   }
   return (
    <>
-   <div className="py-10">
+   <div className="py-10"  data-aos="fade-up"
+                  data-aos-duration="400">
     <div className="container">
-      <div className="text-center mb-20 max-w-[400px]
+      <div className="text-center mb-5 max-w-[400px]
             mx-auto">
               <p className="text-sm bg-clip-text text-transparent bg-[#ff9c01]">
                 Testimonial
@@ -58,7 +59,10 @@ const Testimonial = () => {
               </p>
             </div>
             {/* testimonial section */}
-            <div className="grid grid-cols-1 max-w-[600px] mx-auto gap-6">
+            <div 
+             data-aos="zoom-in"
+                  data-aos-duration="300"
+            className="grid grid-cols-1 max-w-[600px] mx-auto gap-6">
               <Slider {...settings}>
               {
                 testimonialData.map(({id, name, text,img})=>{
@@ -71,15 +75,16 @@ const Testimonial = () => {
                         className='rounded-full block mx-auto'/>
                         <p className="text-gray-500 text-sm">{text}</p>
                         <h1 className="text-xl font-bold ">{name}</h1>
+                        <p className="text-black/20 text-9xl font-serif absolute top-0 right-0 dark:text-gray-400">,,</p>
                       </div>
 
                     </div>
                   )
                 })
               }
-                
+              
               </Slider>
-              console.log(Slider)
+             
             </div>
     </div>
    </div>

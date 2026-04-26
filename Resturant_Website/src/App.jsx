@@ -1,14 +1,27 @@
 import AppStore from "./component/AppStore"
 import Banner from "./component/Banner"
+import Footer from "./component/Footer"
 import Hero from "./component/Hero/Hero"
 import Navbar from "./component/Navbar"
 import Services from "./component/Services"
 import Testimonial from "./component/Testimonial"
+import "aos/dist/aos.css";
+import AOS from  "aos";
+import React from "react"
 
 
 
 function App() {
   
+  React.useEffect(() => {
+    AOS.init({
+      offset:100,
+      duration:500,
+      easing:"ease-in-sine",
+      delay:100,
+    });
+    AOS.refresh();
+  }, [] ); 
 
   return (
    <>
@@ -20,6 +33,7 @@ function App() {
   <Banner/>
   <AppStore/>
   <Testimonial/>
+  <Footer/>
    </div>
    </>
   )

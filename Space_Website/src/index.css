@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@utility container {
+  padding-inline: 1rem;
+  center: true,
+
+  @variant sm {
+    padding-inline: 2rem;
+  }
+}

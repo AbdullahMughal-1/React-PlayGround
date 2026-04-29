@@ -7,9 +7,13 @@ const Hero = () => {
         <div className="h-full flex justify-center items-center p-4">
             <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className='space-y-4 lg:pr-36'>
-                    <h1 className='uppercase text-5xl font-bold'>Orbit The Earth</h1>
-                    <p className=""> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus labore ducimus quibusdam soluta iste omnis sed nisi consectetur consequuntur suscipit reprehenderit neque sit repellendus aliquid, sapiente, autem velit. Voluptas hic autem ducimus a perferendis odio porro possimus officia labore dolorum.</p>
-                    <button
+                    <h1
+                    data-aos="fade-up"
+                    className='uppercase text-5xl font-bold'>Orbit The Earth</h1>
+                    <p 
+                    data-aos="fade-up" data-aos-delay="300"
+                    className=""> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus labore ducimus quibusdam soluta iste omnis sed nisi consectetur consequuntur suscipit reprehenderit neque sit repellendus aliquid, sapiente, autem velit. Voluptas hic autem ducimus a perferendis odio porro possimus officia labore dolorum.</p>
+                    <button  data-aos="fade-up" data-aos-delay="500"
                     className='primary-button'>Learn More</button>
                 </div>
                 <div className=""></div>

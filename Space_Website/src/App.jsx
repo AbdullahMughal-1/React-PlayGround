@@ -6,8 +6,19 @@ import Services from "./coponents/Services";
 import Banner from "./coponents/Banner";
 import Banner2 from "./coponents/Banner2";
 import Footer from "./coponents/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  React.useEffect(() =>{
+    AOS.init({
+      duration:1200,
+      easing:"ease-in-out",
+    });
+  });
+
+
+
   return (
     <>
       <div>

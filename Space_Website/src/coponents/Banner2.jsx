@@ -21,7 +21,7 @@ const Banner2 = () => {
             </button>
           </div>
            <div className="">
-            <img src={View} alt="" className="h-[450px]" />
+            <img src={View} alt="" className="" />
           </div>
         </div>
       </div>

@@ -4,6 +4,8 @@ import Navbar from "./coponents/Navbar";
 import Hero from "./coponents/Hero";
 import Services from "./coponents/Services";
 import Banner from "./coponents/Banner";
+import Banner2 from "./coponents/Banner2";
+import Footer from "./coponents/Footer";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         </div>
           <Services/>
           <Banner/>
+          <Banner2/>
+          <Footer/>
       </div>
     </>
   );

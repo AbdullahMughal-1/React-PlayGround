@@ -10,7 +10,7 @@ const Hero = () => {
                     <h1 className='uppercase text-5xl font-bold'>Orbit The Earth</h1>
                     <p className=""> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus labore ducimus quibusdam soluta iste omnis sed nisi consectetur consequuntur suscipit reprehenderit neque sit repellendus aliquid, sapiente, autem velit. Voluptas hic autem ducimus a perferendis odio porro possimus officia labore dolorum.</p>
                     <button
-                    className='bg-blue-400 text-white hover:bg-blue-500 px-4 py-2 rounded-md duration-200 cursor-pointer '>Learn More</button>
+                    className='primary-button'>Learn More</button>
                 </div>
                 <div className=""></div>
             </div>

@@ -1,15 +1,13 @@
 import React from "react";
-import shuttle from "../assets/Shuttle.jpg";
+import View from "../assets/View.jpg";
 
-const Banner = () => {
+const Banner2 = () => {
   return (
-    <div className="bg-black text-white pb-30 relative z-50">
+    <div className="bg-black text-white pb-10 relative z-50 ">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-          <div>
-            <img src={shuttle} alt="" />
-          </div>
-          <div className="space-y-3 xl:pr-36 p-4 border-r-2 border-b-2 border-r-sky-800 border-b-sky-800">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 items-center">
+         
+          <div className="space-y-3 xl:pl-36 p-4 border-l-2 border-b-2 border-l-sky-800 border-b-sky-800">
             <p className="text-sky-800 uppercase" >Our Mission</p>
             <h1 className="uppercase text-5xl" >Rapidcast</h1>
             <p>
@@ -22,10 +20,13 @@ const Banner = () => {
               Learn More
             </button>
           </div>
+           <div className="">
+            <img src={View} alt="" className="h-[450px]" />
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Banner;
+export default Banner2;

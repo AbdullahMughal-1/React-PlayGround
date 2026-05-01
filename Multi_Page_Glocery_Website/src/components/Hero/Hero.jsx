@@ -5,12 +5,12 @@ import Button from "../Button/button";
 const Hero = () => {
   return (
     <section>
-      <div className="max-w-[1400px] mx-auto px-10 flex items-center  min-h-screen ">
+      <div className="max-w-[1400px] mx-auto px-10 flex  md:flex-row flex-col items-center  min-h-screen md:pt-12 pt-36 ">
         <div className="flex-1 space-y-6 mt">
           <span className="bg-orange-100 text-orange-500 text-lg px-5 py-2 rounded-full ">
             Export Best Quality...
           </span>
-          <h1 className="text-6xl/18 font-bold mt-4 ">
+          <h1 className="md:text-6xl/18 font-bold mt-4  text-4xl/12  ">
             Tasty and Orgenic <span className="text-orange-500">Fruits</span> &{" "}
             <span className="text-orange-500">Veggies</span>
             <br /> In Your City{" "}

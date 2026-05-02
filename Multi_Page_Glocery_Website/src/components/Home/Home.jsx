@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
 import Catagory from '../Category/Catagory'
+import Values from '../Values/Values'
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <Navbar/>
     <Hero/>
     <Catagory/>
+    <Values/>
     </div>
   )
 }

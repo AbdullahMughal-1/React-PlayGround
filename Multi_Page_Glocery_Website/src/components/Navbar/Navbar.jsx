@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { GoHeartFill } from "react-icons/go";
 import { HiShoppingBag } from "react-icons/hi";
 import { IoSearch } from "react-icons/io5";
@@ -8,13 +8,23 @@ import { useState } from "react";
 const Navbar = () => {
 
 const [showMenu, setshowMenu] = useState(false)
+const [isscroll, setisscroll] = useState(false)
 
 const ToggleMenu= ()=>{
   setshowMenu(!showMenu)
 }
 
+
+useEffect(() => {
+ const handleScroll =()=>{
+  setisscroll(window.scrollY > 10)
+ }
+ window.addEventListener("scroll" , handleScroll)
+}, [])
+
+
   return (
-    <header className="bg-white fixed top-0 left-0 right-0">
+    <header className={`bg-white fixed top-0 left-0 right-0 z-50 ${isscroll ? 'shadow-lg' : null} `}>
       <nav className="flex justify-between md:h-[14vh] h-[10vh] items-center px-10 max-w-[1400px]  mx-auto">
         <a href="#" className="text-3xl font-bold">
           Gr<span className="text-orange-500 uppercase">o</span>cify

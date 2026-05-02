@@ -5,7 +5,7 @@ import Button from "../Button/button";
 const Hero = () => {
   return (
     <section>
-      <div className="max-w-[1400px] mx-auto px-10 flex  md:flex-row flex-col items-center  min-h-[95vh] md:pt-1 pt-36 -pb ">
+      <div className="max-w-[1400px] mx-auto px-10 flex  md:flex-row flex-col items-center  min-h-[80vh] md:pt-1 pt-36 -pb ">
         <div className="flex-1 ">
           <span className="bg-orange-100 text-orange-500 text-lg px-5 py-2 rounded-full ">
             Export Best Quality...

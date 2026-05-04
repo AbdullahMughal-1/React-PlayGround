@@ -25,7 +25,7 @@ const renderCards = filteredItems.slice(0,8).map(product =>{
         <Heading highlight="Our" heading="Products"/>
 
                 {/* tabs */}
-            <div className="flex gap-3 justify-center mt-10">
+            <div className="flex flex-wrap gap-3 justify-center mt-10">
             {categories.map(category=>{
                 return(
                     <button key={category} className={`px-5 py-2 text-lg rounded-lg  ${activeTab === category ? 'bg-orange-500 text-white ' : 'bg-zinc-100'} cursor-pointer `}  onClick={()=>setactiveTab(category)}>
@@ -35,7 +35,7 @@ const renderCards = filteredItems.slice(0,8).map(product =>{
             })}
             </div>    
                 {/* product listing  */}
-                <div className=" grid grid-cols-4 gap-9 mt-20">
+                <div className=" grid grid-cols-1 md:grid-cols-4 gap-9 mt-20">
                     {renderCards}
                 </div>
 

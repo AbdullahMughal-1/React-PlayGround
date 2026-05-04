@@ -4,6 +4,8 @@ import Hero from '../Hero/Hero'
 import Catagory from '../Category/Catagory'
 import Values from '../Values/Values'
 import Products from '../Products/Products'
+import Discount from '../Discount/Discount'
+import Process from '../Process/Process'
 
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
     <Catagory/>
     <Values/>
     <Products/>
+    <Discount/>
+    <Process/>
     </div>
   )
 }

@@ -28,7 +28,7 @@ if(isCheckingAuth && !authUser) return(
 
   return (
     <>
-      <div>
+      <div data-theme="dark">
         <Navbar />
 
         <Routes>
